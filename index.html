@@ -1,0 +1,44 @@
+<html>
+
+  <head>
+    <title>PUCSD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js"></script>
+  <link rel="stylesheet" href="./css/main.css">
+  <script type="text/javascript" src="./js/toggle_menu_bar_controller.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  
+
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo"></a>
+      <div data-controller="toggle-menu-bar">
+        <div data-action="click->toggle-menu-bar#toggleElement" data-target="toggle-menu-bar.toggle" class="menu-toggle"></div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#exam">Exam</a></li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#cells">Cells</a></li>
+          <li><a href="#students">Students</a></li>
+          <li><a href="#addimission">Addmission</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="clearfix"></div>
+
+    </header>
+
+
+    <footer>
+      <h2> This is footer </h2>
+    </footer>
+  </body>
+
+</html>
